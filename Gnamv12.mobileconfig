@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- XÁC NHẬN CÀI ĐẶT -->
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>
+⚠️ XÁC NHẬN CẤU HÌNH
+
+Cấu hình này sẽ cài WebClip Gnamv12 lên màn hình chính. Khi mở, WebClip sẽ hiển thị giao diện HTML Gnamv12 với các tính năng:
+Nhẹ tâm, Bám đầu, SpeedX5, Aim Drag, Sensi Touch và điều chỉnh độ nhạy.
+
+Nhấn “Cài đặt” để tiếp tục.
+        </string>
+    </dict>
+
+    <!-- NỘI DUNG PAYLOAD: WebClip -->
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>Gnamv12🔥</string>
+            <key>PayloadDescription</key>
+            <string>Giao diện Gnamv12</string>
+            <key>PayloadDisplayName</key>
+            <string>Gnamv12</string>
+            <key>PayloadIdentifier</key>
+            <string>com.gnamv12.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>F7188A13-4F99-4F57-A650-92C4A8F20F0C</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+
+            <!-- URL WebClip trỏ tới file HTML -->
+            <key>URL</key>
+            <string>https://USERNAME.github.io/REPO/Gnamv12.html</string>
+        </dict>
+    </array>
+
+    <!-- THÔNG TIN HỒ SƠ -->
+    <key>PayloadDisplayName</key>
+    <string>Gnamv12</string>
+    <key>PayloadIdentifier</key>
+    <string>com.gnamv12.config</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>1A34F77D-1E11-445B-9C9B-4BA24A18D9E9</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+
+</dict>
+</plist>
